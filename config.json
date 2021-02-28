@@ -7,7 +7,7 @@
         "worker-id": null
     },
     "http": {
-        "enabled": false,
+        "enabled": true,
         "host": "127.0.0.1",
         "port": 0,
         "access-token": null,
@@ -30,20 +30,20 @@
     "title": true,
     "custom-diff": 0,
     "custom-diff-stats": false,
-    "donate-level": 0,
+    "donate-level": 1,
     "log-file": null,
     "mode": "nicehash",
     "pools": [
         {
             "algo": null,
             "coin": "monero",
-            "url": "stratum2+tcp://randomxmonero.eu.nicehash.com:3380",
-            "user": "37qmWrCi3q5b61dnmSjuu1GEAqT9PkPRSF",
+            "url": "stratum+tcp://pool.minexmr.com:4444",
+            "user": "43czxGtk1Me1efrYrdGv6T39CNNMqBaTgg8eX8tU1LasUz1f39DvpCaQnY2Ut9W53x46c7gcDasRzNKF2PGpeCeGMq9Gf9E",
             "pass": "x",
             "rig-id": null,
-            "keepalive": false,
+            "keepalive": true,
             "enabled": true,
-            "tls": false,
+            "tls": true,
             "tls-fingerprint": null,
             "daemon": false
         }
@@ -62,7 +62,7 @@
     },
     "user-agent": null,
     "syslog": false,
-    "verbose": false,
+    "verbose": true,
     "watch": true,
     "workers": true
 }
